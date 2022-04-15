@@ -4,9 +4,8 @@
 
     $(document).ready(function () {
         $('.pa-clear-cache').on('click', 'a', function (e) {
-            console.log("hellllllllllll");
-            e.preventDefault();
 
+            e.preventDefault();
 
             var shouldClearAll = $(e.delegateTarget).hasClass("pa-clear-all-cache"),
                 _this = $(e.delegateTarget).find("i");

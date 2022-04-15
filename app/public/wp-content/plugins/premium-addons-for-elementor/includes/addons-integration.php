@@ -608,7 +608,10 @@ class Addons_Integration {
 		wp_register_script(
 			'lottie-js',
 			PREMIUM_ADDONS_URL . 'assets/frontend/' . $dir . '/lottie' . $suffix . '.js',
-			array( 'jquery' ),
+			array(
+				'jquery',
+				'elementor-waypoints',
+			),
 			PREMIUM_ADDONS_VERSION,
 			true
 		);
