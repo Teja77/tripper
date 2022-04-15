@@ -1,0 +1,18 @@
+/*
+
+Theme Name:  Hello Elementor Child Theme
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Description:  Child Theme for Hello Elementor
+Author: Teja
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Template:     Hello-Elementor
+Version:      1.0.0
+*/
+
+.site-navigation-dropdown ul.menu li.current-menu-item a {
+  background: #826f66;
+}
+ .site-navigation-dropdown ul.menu li.current-menu-item a {
+ 
+    background: #c69b7b;
+}
